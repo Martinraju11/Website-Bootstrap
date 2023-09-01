@@ -1,0 +1,463 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+@media (min-width: 320px) {
+  /*About*/
+  .about-main h1 {
+    font-size: 2.2rem;
+  }
+  .about-main p {
+    font-size: 1.4rem;
+  }
+
+  .carousel-control-next-icon {
+    width: 35px !important;
+    height: 35px !important;
+  }
+  .carousel-control-prev-icon {
+    width: 35px !important;
+    height: 35px !important;
+  }
+
+  .box {
+    display: none;
+  }
+  /*End of About*/
+  /*What-we-do*/
+  .wwd-head h1 {
+    font-size: 2.2rem;
+  }
+
+  /*End of What-we-do*/
+  /*How it works*/
+  .how-it h1 {
+    font-size: 2.2rem;
+  }
+  .how-it > p {
+    font-size: 1.4rem;
+  }
+  .box2 {
+    display: none;
+  }
+  /*End of How it works*/
+
+  /*who-are-we*/
+  .box3 {
+    display: none;
+  }
+  .waw-head h1 {
+    font-size: 2.2rem;
+  }
+  /*End of who-are-we*/
+  /*Team*/
+  .team-image {
+    width: 50%;
+  }
+  /*End of Team*/
+  .car-img {
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 620px) {
+  /*About*/
+  .about-main h1 {
+    font-size: 2.4rem;
+  }
+  .about-main p {
+    font-size: 1.8rem;
+  }
+  .box {
+    display: block;
+  }
+
+  .box {
+    width: 95%;
+    height: 82%;
+    background-color: #edf2fc;
+    position: absolute;
+    top: 28%;
+    left: 15%;
+    border-radius: 10px;
+  }
+  /*End of About*/
+  /*What-we-do*/
+  .wwd-head h1 {
+    font-size: 2.4rem;
+  }
+  .how-it > p {
+    font-size: 1.8rem;
+  }
+  /*End of What-we-do*/
+  /*How it works*/
+  .how-it h1 {
+    font-size: 2.4rem;
+  }
+
+  .box2 {
+    display: block;
+  }
+  .box2 {
+    width: 95%;
+    height: 83%;
+    background-color: #edf2fc;
+    position: absolute;
+    top: 28%;
+    left: 15%;
+    border-radius: 10px;
+  }
+  .image-2 {
+    width: 75%;
+  }
+  /*End of How it works*/
+
+  /*who-are-we*/
+  .box3 {
+    display: block;
+  }
+  .box3 {
+    width: 95%;
+    height: 82%;
+    background-color: #edf2fc;
+    position: absolute;
+    top: 28%;
+    left: 15%;
+    border-radius: 10px;
+  }
+  .image-3 {
+    width: 75%;
+  }
+  .waw-head h1 {
+    font-size: 2.4rem;
+  }
+  /*End of who-are-we*/
+  /*Team*/
+  .team-image {
+    width: 50%;
+  }
+  /*End of Team*/
+  .car-img {
+    width: 50% !important;
+  }
+}
+
+@media (min-width: 1000px) {
+  /*About*/
+  .about-main h1 {
+    font-size: 2.7rem;
+  }
+  .about-main p {
+    font-size: 1.5rem;
+  }
+
+  .carousel-control-next-icon {
+    width: 45px !important;
+    height: 45px !important;
+  }
+  .carousel-control-prev-icon {
+    width: 45px !important;
+    height: 45px !important;
+  }
+  .box {
+    display: block;
+  }
+  .box {
+    width: 95%;
+    height: 90%;
+    background-color: #edf2fc;
+    position: absolute;
+    top: 18%;
+    left: 13%;
+    border-radius: 10px;
+  }
+
+  /*End of About*/
+  /*What-we-do*/
+  .wwd-head h1 {
+    font-size: 2.7rem;
+    width: 75%;
+    margin: auto;
+  }
+  /*End of What-we-do*/
+  /*How it works*/
+  .box2 {
+    display: block;
+  }
+  .box2 {
+    width: 95%;
+    height: 89%;
+    background-color: #edf2fc;
+    position: absolute;
+    top: 18%;
+    left: 13%;
+    border-radius: 10px;
+  }
+  .how-it h1 {
+    font-size: 2.7rem;
+  }
+  .how-it > p {
+    font-size: 1.5rem;
+  }
+  .image-2 {
+    width: 100%;
+  }
+  /*End of How it works*/
+
+  /*who-are-we*/
+  .waw-head h1 {
+    font-size: 2.6rem;
+  }
+  .box3 {
+    display: block;
+  }
+
+  .image-3 {
+    width: 100%;
+  }
+  .box3 {
+    width: 95%;
+    height: 91%;
+    background-color: #edf2fc;
+    position: absolute;
+    top: 18%;
+    left: 13%;
+    border-radius: 10px;
+  }
+  /*End of who-are-we*/
+  /*Team*/
+  .team-image {
+    width: 75%;
+  }
+  /*End of Team*/
+}
+
+#top-bar {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding: 0 !important;
+}
+
+footer {
+  margin-top: 8rem;
+  margin-bottom: 5rem;
+}
+/*About*/
+.about-main h1 {
+  font-family: "DM Serif Display", serif;
+}
+
+.image-1 {
+  position: relative;
+}
+.image-1 img {
+  z-index: 2;
+}
+.about-image-main {
+  position: relative;
+}
+/*End of About*/
+
+/*What-we-do*/
+.wwd-head h1 {
+  font-family: "DM Serif Display", serif;
+}
+.learn {
+  text-decoration: none;
+  color: #0d6efd;
+  padding-top: 2px;
+}
+.wwd-icon {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3f78e0;
+  border-radius: 50%;
+  color: #ffff;
+}
+.learn::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  color: #3f78e0;
+  background-color: #3f78e0;
+  display: block;
+  visibility: hidden;
+}
+.learn:hover:after {
+  visibility: visible;
+  transition-duration: 2s;
+  transform-origin: left;
+}
+/*End of What-we-do*/
+/*How it works*/
+.image-2 {
+  position: relative;
+}
+.image-2 img {
+  z-index: 2;
+}
+.how-image-main {
+  position: relative;
+}
+.number {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3f78e0;
+  border-radius: 50%;
+  border: 1px solid #3f78e0;
+}
+.details {
+  width: 80%;
+}
+.number span {
+  color: #ffff;
+}
+.how-it h1 {
+  font-family: "DM Serif Display", serif;
+}
+/*End of How it works*/
+
+/*who-are-we*/
+
+.waw-head h1 {
+  font-family: "DM Serif Display", serif;
+}
+.image-3 {
+  position: relative;
+}
+.image-3 img {
+  z-index: 2;
+}
+.waw-image-main {
+  position: relative;
+}
+.waw-icon ul li {
+  list-style-type: none;
+  margin-left: -25px;
+}
+.waw-list-icon {
+  color: #3f78e0;
+  background-color: #dce7f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+/*End of who-are-we*/
+
+/*review*/
+.review-row {
+  background-color: #edf2fc;
+  position: relative;
+}
+.review-image {
+  position: absolute;
+  bottom: 0%;
+  left: 10%;
+}
+.review-image img {
+  height: auto !important;
+  vertical-align: center;
+}
+/*End of review*/
+.footer-img {
+  width: 35%;
+}
+.team-col {
+  position: relative;
+}
+.owl-theme .owl-nav {
+  position: absolute;
+  bottom: -10%;
+  left: 45%;
+}
+.owl-dots {
+  display: none;
+}
+.con-btn {
+  font-size: 15px !important;
+}
+.abt-btn {
+  padding: 0 35px !important;
+}
+.ref {
+  padding-top: 4rem;
+}
+.carousel-item {
+  width: 100% !important;
+}
+.carousel-control-next-icon {
+  background-image: url("../images/right.png") !important;
+}
+.carousel-control-prev-icon {
+  background-image: url("../images/left.png") !important;
+}
+header {
+  position: sticky;
+  top: 0;
+  z-index: 500;
+}
+.side-1 a {
+  text-decoration: none;
+  color: #fff;
+}
+.side-panel {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  padding: 30px;
+  gap: 15px;
+  width: 100%;
+  justify-content: flex-start;
+}
+.panel {
+  display: flex;
+  justify-content: flex-start;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 100%;
+  z-index: 1000;
+  background-color: #1b1b1b;
+  bottom: 0;
+  font-weight: 700;
+  transition-timing-function: ease-out;
+  transition-duration: 0.2s;
+}
+.pl {
+  right: 30%;
+}
+.side-icons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+#pan {
+  visibility: hidden;
+}
+.bottom {
+  color: #fff;
+  padding-top: 4rem;
+  margin-top: 4rem;
+}
+
+.panel h3 {
+  color: #fff;
+}
+section {
+  margin: 5rem 0;
+  padding: 5rem 0;
+}
